@@ -112,7 +112,7 @@ from sklearn.neighbors import KNeighborsClassifier
 # In[17]:
 
 
-model=KNeighborsClassifier()
+model=KNeighborsClassifier(n_neighbors=3)
 model.fit(X_train,Y_train)
 
 
